@@ -1,0 +1,7 @@
+mixin itemFolder(name, tab)
+  div(style='width: 100%; height: 24px; margin-left: ' + (tab * 14) + 'px')
+    i.material-icons(style='vertical-align: middle; font-size: 14px;')
+      | keyboard_arrow_down
+    i.material-icons(style='vertical-align: middle; font-size: 24px;')
+      | folder
+    span(style='vertical-align: middle; font-size: 14px;')= name

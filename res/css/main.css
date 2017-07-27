@@ -2,11 +2,22 @@ body {
   margin: 0px;
   padding: 0px;
 
+  width: 100vw;
+  height: 100vh;
+
   font-family: 'Quicksand', sans-serif;
 
   background-color: #EAEAEA;
 
   overflow: hidden;
+}
+
+#main {
+  width: calc(100vw - 200px);
+  height: 100vh;
+
+  display: inline-block;
+  float: right;
 }
 
 #header {
@@ -15,6 +26,8 @@ body {
 
   margin: 0px;
   padding: 0px;
+  
+  border-left: 1px solid #8BC34A;
 }
 
 #sidebar {
@@ -29,20 +42,23 @@ body {
 }
 
 #section {
-  width: calc(100% - 200px);
+  width: 100%;
   height: calc(100vh - 56px - 36px);
 
   margin: 0px;
   padding: 0px;
 
-  float: right;
-
   background-color: #FAFAFA;
+
+  border: 1px solid #8BC34A;
 }
 
 #footer {
-  width: 100%;
+  width: auto;
   height: 36px;
+
+  background-color: #8BC34A;
+  color: #FAFAFA;
 
   margin: 0px;
   padding: 0px;
